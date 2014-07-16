@@ -12,7 +12,7 @@ class PopplerQuartz < Formula
 
   depends_on 'pkg-config' => :build
   depends_on 'glib'
-  depends_on 'acornejo/quartz/cairo-quartz'
+  depends_on 'ryanhope/quartz/cairo-quartz'
 
   keg_only 'This formula builds Poppler for use with Quartz instead of X11, which is experimental.'
 

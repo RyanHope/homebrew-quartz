@@ -13,7 +13,7 @@ class GtkxQuartz < Formula
   depends_on 'jasper' => :optional
   depends_on 'atk'
 
-  depends_on 'acornejo/quartz/pango-quartz'
+  depends_on 'ryanhope/quartz/pango-quartz'
 
   keg_only 'This formula builds Gtk+ for use with Quartz instead of X11, which is experimental.'
 

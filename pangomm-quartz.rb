@@ -8,8 +8,8 @@ class PangommQuartz < Formula
   depends_on 'pkg-config' => :build
   depends_on 'glibmm'
 
-  depends_on 'acornejo/quartz/cairomm-quartz'
-  depends_on 'acornejo/quartz/pango-quartz'
+  depends_on 'ryanhope/quartz/cairomm-quartz'
+  depends_on 'ryanhope/quartz/pango-quartz'
 
   keg_only 'This formula builds PangoMM for use with Quartz instead of X11, which is experimental.'
 
